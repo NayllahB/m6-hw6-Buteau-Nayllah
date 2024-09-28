@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(images/y-so-serious-white.png);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+header {
+    background-color: white;
+    padding: 30px 30px 0px 30px;
+    border-bottom: 3px solid black;
+}
+
+h1 {
+    width: 30%;
+    display: inline-block;
+    background: #162a2c;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+nav {
+    width: 55%;
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+}
+
+nav a {
+    color: #162a2c;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+h2 {
+    border-bottom: 3px solid black;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+    font-size: 30px;
+    color: #162a2c;
+}
+
+main {
+    width: 65%;
+    display: inline-block;
+    background: #ede9df;
+    padding: 20px;
+    margin: 20px 10px 20px 0px;
+}
+
+aside {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    background: #ede9df;
+    text-align: center;
+    margin: 20px 0px 0px 10px;
+    font-weight: bolder;
+    font-size: 16px;
+    color: #162a2c;
+}
+
+h3 {
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+
+aside img {
+    margin: 10px 5px;
+}
+
+p {
+    margin: 15px;
+    font-size: 18px;
+}
+
+main p {
+    line-height: 140%;
+}
+.headshot {
+    float: left;
+    margin: 10px 20px 20px 0px;
+}
+
+footer {
+    background: #162a2c;
+    color: #fefcf6;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #364134;
+    font-weight: bolder;
+
+}
