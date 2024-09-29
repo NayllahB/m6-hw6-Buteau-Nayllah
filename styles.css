@@ -7,10 +7,13 @@
 body {
     background-image: url(images/y-so-serious-white.png);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -22,7 +25,6 @@ header {
 
 h1 {
     width: 30%;
-    display: inline-block;
     background: #162a2c;
     text-align: center;
     color: white;
@@ -30,10 +32,11 @@ h1 {
 }
 
 nav {
-    width: 55%;
-    display: inline-block;
-    text-align: right;
-    padding: 10px;
+    display: flex;
+}
+
+.name {
+    margin-right: auto;
 }
 
 nav a {
@@ -102,5 +105,6 @@ footer {
     padding: 20px;
     border-top: 5px solid #364134;
     font-weight: bolder;
+    margin-top: auto;
 
 }
