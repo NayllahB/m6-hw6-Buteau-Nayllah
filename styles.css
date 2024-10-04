@@ -15,6 +15,13 @@ body {
 .container {
     max-width: 800px;
     margin: auto;
+    display: flex;
+    align-items: baseline;
+}
+
+header .container {
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -57,17 +64,14 @@ h2 {
 }
 
 main {
-    width: 65%;
-    display: inline-block;
     background: #ede9df;
     padding: 20px;
     margin: 20px 10px 20px 0px;
     justify-content: center;
+    flex: 1 70%;
 }
 
 aside {
-    width: 25%;
-    display: inline-block;
     vertical-align: top;
     background: #ede9df;
     text-align: center;
@@ -76,6 +80,7 @@ aside {
     font-size: 16px;
     color: #162a2c;
     padding-top: 10px;
+    flex: 1 30%;
 }
 
 h3 {
